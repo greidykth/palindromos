@@ -41,11 +41,9 @@ const Palindromos = ({ setModal, setResultadoConsulta, setPalabra, palabra }) =>
 
       for (let i = 0; i < indexInicio; i++) {
         if (palabraConsultar[i] == palabraConsultar[indexFin]) {
-          console.log("true");
           resultado = true;
           indexFin--;
         } else {
-          console.log("false");
           resultado = false;
           break;
         }
@@ -55,11 +53,9 @@ const Palindromos = ({ setModal, setResultadoConsulta, setPalabra, palabra }) =>
 
       for (let i = 0; i < indexInicio + 1; i++) {
         if (palabraConsultar[i] == palabraConsultar[indexFin]) {
-          console.log("true");
           resultado = true;
           indexFin--;
         } else {
-          console.log("false");
           resultado = false;
           break;
         }
